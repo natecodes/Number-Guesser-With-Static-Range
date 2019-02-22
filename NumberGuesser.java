@@ -32,7 +32,7 @@ public class NumberGuesser {
                 currentGuess = Math.round(maxGuess + minGuess)/2;
             }
             else if (higherOrLower.equalsIgnoreCase("correct")){
-                System.out.println("Your number is: " +currentGuess);
+                System.out.println("Your number is: " + currentGuess);
                 numberCorrect = true;
                 //finish code because it works
             }
